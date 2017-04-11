@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Hello Vue</h1>
     <modal></modal>
     <div class="dd">
       Index
@@ -36,8 +37,10 @@ export default {
 }
 </script>
 
-<style>
-  body {
-    background-color: #f5f5f5;
+<style lang="postcss">
+  :root h1 {
+    --color: blue;
+    display: flex;
+    color: var(--color);
   }
 </style>

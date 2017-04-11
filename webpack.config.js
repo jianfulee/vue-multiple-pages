@@ -36,8 +36,12 @@ const config = {
         loader: 'vue-loader',
         options: {
           loaders: {
+            postcss: ExtractTextPlugin.extract({
+              use: ['css-loader', 'postcss-loader'],
+              fallback: 'style-loader'
+            }),
             css: ExtractTextPlugin.extract({
-              use: 'css-loader',
+              use: ['css-loader'],
               fallback: 'style-loader'
             })
           }

@@ -9,7 +9,7 @@
   }
 </script>
 
-<style lang="css">
+<style lang="postcss">
   .modal {
     width: 100px;
     height: 100px;
