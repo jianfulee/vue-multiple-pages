@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1>Hello Vue</h1>
+    <h2>Hello Vue</h2>
     <modal></modal>
     <div class="dd">
       Index
