@@ -31,7 +31,7 @@ npm run dev
 
 [http://localhost:8010/user/index.html](http://localhost:8010/user/index.html)
 
-[http://localhost:8010/customer/index.html](http://localhost:8010/customer/index.html)
+[http://localhost:8010/customer/index.html](http://localhost:8010/customer/home.html)
 
 ## Build
 
